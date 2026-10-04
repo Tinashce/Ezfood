@@ -1,0 +1,10 @@
+{
+  "name": "EzFood",
+  "short_name": "EzFood",
+  "description": "Crowdsourced meals under R200 in Johannesburg and Cape Town",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e8590c",
+  "icons": []
+}

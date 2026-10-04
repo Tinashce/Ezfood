@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; color: #212529; background: #fff; }
+main { max-width: 640px; margin: 0 auto; padding: 0 16px 32px; }
+h1 small { font-size: 0.5em; color: #868e96; font-weight: 400; }
+.muted { color: #868e96; font-size: 0.85rem; }
+.error { color: #c92a2a; }
+.chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0; }
+button { padding: 8px 12px; border: 1px solid #e8590c; background: #e8590c; color: #fff; border-radius: 999px; cursor: pointer; }
+button.ghost, .chips button { background: #fff; color: #e8590c; }
+.chips button.on { background: #e8590c; color: #fff; }
+.list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.card { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; padding: 12px; border: 1px solid #dee2e6; border-radius: 12px; }
+.price { font-size: 1.4rem; font-weight: 700; color: #e8590c; grid-row: span 2; }
+.info { display: grid; gap: 2px; }
+.actions { grid-column: 1 / -1; display: flex; gap: 8px; flex-wrap: wrap; }
+.actions button { font-size: 0.8rem; padding: 6px 10px; }
+.map { height: 60vh; border-radius: 12px; }
+.form { display: grid; gap: 10px; }
+.form input, .form select { padding: 10px; border: 1px solid #ced4da; border-radius: 8px; font-size: 1rem; }
